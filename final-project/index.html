@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 9-10 - Assignment - Final Project</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/c9693e43ff.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <h1>Let's Create and ID Card!</h1>
+    <form>
+        <label for="firstName">First Name:</label>
+        <br>
+        <input id="firstName" type="text" placeholder="First Name">
+        <br>
+        <label for="lastName">Last Name:</label>
+        <br>
+        <input id="lastName" type="text" placeholder="Last Name">
+        <br>
+        <label for="age">Age:</label>
+        <br>
+        <input id="age" type="text" placeholder="Age">
+        <br>
+        <label for="phoneNumber">Phone Number:</label>
+        <br>
+        <input id="phoneNumber" type="text" placeholder="Phone Number">
+        <br>
+        <label for="address">Address:</label>
+        <br>
+        <input id="address" type="text" placeholder="Address">
+        <br>
+
+        <button onclick="idCard()">Get ID Card</button>
+
+    </form>
+
+    <div id="idCard">
+        <div id="idCardHeading">
+            <i class="fa-regular fa-circle-user" style="font-size: 90px;"></i>
+            <p id="postFullName"></p>
+        </div>
+        <div id="idCardBody">
+            <p id="age"></p>
+            <p id="phoneNumber"></p>
+            <p id="address"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

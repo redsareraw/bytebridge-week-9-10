@@ -1,4 +1,4 @@
-function idCard() {
+function createIdCard() {
     var firstName = document.getElementById('firstName').value;
     var lastName = document.getElementById('lastName').value;
     var address = document.getElementById('address').value;
